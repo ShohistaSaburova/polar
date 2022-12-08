@@ -55,6 +55,17 @@
          url('../fonts/hind-madurai-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+
+  /* fredoka-one-regular - latin */
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/fredoka-one-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fredoka-one-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
   :root {
     --header-bg-color: #F2CEDA;
     --main-bg-color:  #F2CEDA;
@@ -189,4 +200,84 @@ a{
     color: var(--buy-now-text-color);
 
 }
+
 /***************** HEADER STYLES END **************/
+
+/***************** MAIN STYLES START **************/
+.site-main {
+    background-color: var(--header-bg-color);
+}
+/* HERO SECTION START */
+.hero-section {
+    padding-top: 52px;
+    padding-bottom: 71px;
+}
+.hero-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section__info-desc{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: var(--main-text-color);
+}
+.hero-section__start {
+    width: 665px;
+}
+.hero-section__info-title {
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-family: 'Fredoka One' ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: var(--main-text-color);
+    opacity: 0.9;
+}
+.hero-section_info-title-end {
+    color: var(--header-btn-color);
+}
+.hero-section__info-text {
+    margin-bottom: 0;
+    margin-bottom: 50px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--main-text-color);
+    opacity: 0.6;
+}
+.hero-section_btn {
+    display: inline-block;
+    padding: 13px 50px 19px;
+    background-color: var(--header-btn-color);
+    border-radius: 5px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--buy-now-text-color);
+}
+
+/*.hero-section__circle-img {
+    position: relative;
+   /* margin-top: 285px;
+    margin-right: 20px;
+    margin-left: 30px;
+} 
+.hero-section__ice-cream-img {
+    position: relative;
+    margin-left: 10px;
+}
+.hero-section__milk-img {
+    position: absolute;
+    margin-top: 0px;
+}*/
+
+/* HERO SECTION END */
