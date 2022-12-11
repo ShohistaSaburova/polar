@@ -138,7 +138,7 @@ a{
     text-decoration: none;
 }
 
-/***************** HEADERB STYLES START **************/
+/***************** HEADER STYLES START **************/
 .site-header {
     padding-top: 10px;
     background-color: var(--header-bg-color);
@@ -159,7 +159,6 @@ a{
 .site-nav__list {
     display: flex;
 }
-
 .site-nav__item {
     margin-right: 40px;
 }
@@ -228,6 +227,7 @@ a{
     width: 665px;
 }
 .hero-section__info-title {
+    width: 665px;
     margin-top: 0;
     margin-bottom: 35px;
     font-family: 'Fredoka One' ;
@@ -242,8 +242,9 @@ a{
     color: var(--header-btn-color);
 }
 .hero-section__info-text {
+    width: 523px;
     margin-bottom: 0;
-    margin-bottom: 50px;
+    margin-bottom: 213px;
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 400;
@@ -264,10 +265,32 @@ a{
     line-height: 22px;
     color: var(--buy-now-text-color);
 }
-
-/*.hero-section__circle-img {
+.hero-section__end {
     position: relative;
-   /* margin-top: 285px;
+    width: 400px;
+   
+}
+.hero-section__end img{
+        position: absolute;
+        left: 0;top: 0;
+}
+.hero-section__end img:nth-child(1){
+    transform: scale(.7);
+ top: -100px;
+}
+.hero-section__end img:nth-child(2){
+
+transform: scale(1.1);
+}
+.hero-section__end img:nth-child(3){
+top: 170px;
+transform: scale(1.7);
+}
+
+
+.hero-section__circle-img {
+    position: relative;
+    margin-top: 285px;
     margin-right: 20px;
     margin-left: 30px;
 } 
@@ -278,7 +301,9 @@ a{
 .hero-section__milk-img {
     position: absolute;
     margin-top: 0px;
-}*/
+}
+
+
 
 /* HERO SECTION END */
 
@@ -394,3 +419,370 @@ a{
     color: var(--buy-now-text-color);
 }
 /* BROWN SUGAR SECTION STYLES END */
+
+/* OUR PRODUCT SECTION STYLES START */
+.our-product-section {
+    padding-top: 137px;
+    padding-bottom: 149px;
+    background-color: var(--footer-text-color);
+}
+.our-product-section__title {
+    text-align: center;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: var(--header-text-color);
+}
+.our-product-section__start-list {
+    display: flex;
+}
+.our-product-section__item {
+    margin-right: 39px;
+}
+.our-product-section__item:last-child {
+    margin-right: 0;
+}
+.our-product-section__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--brown-bread-subtitle-color);
+    opacity: 0.6;
+}
+.our-product-section__link:hover {
+    border-bottom: 3px solid var(--brown-sugar-section-btn-color);
+    opacity: 1;
+}
+.our-product-section__link:active {
+    border-bottom: 3px solid var(--brown-sugar-section-btn-color);
+    opacity: 1;
+}
+.our-product-section__item {
+    display: flex;
+}
+.our-product-section__item-img {
+    margin-top: 35px;
+    margin-right: 85px;
+}
+.our-product-section__item-title { 
+    margin-top: 110px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: var(--brown-bread-subtitle-color);
+}
+.our-product-section__item-title:last-child {
+    margin-top: 121px;
+    text-align: right;
+}
+.our-product-section__item-text {
+    width: 100%;
+    width: 454px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--brown-bread-subtitle-color);
+    opacity: 0.7;
+}
+.our-product-section__item-price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: var(--brown-bread-subtitle-color);
+}
+.our-product-section__item-provisional-price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration-line: line-through;
+    color: var(--brown-bread-subtitle-color);
+    opacity: 0.7;
+}
+.our-product-section__btn {
+    padding: 15px 55px 15px 46px;
+    background: var(--brown-sugar-section-btn-color);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--buy-now-text-color);
+}
+.our-product-section__end-item-img {
+    margin-top: 121px;
+    margin-right: 87px;
+}
+.our-product-section__end {
+    display: flex;   
+}
+.about-adele {
+    margin-top: 205px;
+    height: 60px;
+    display: flex;
+}
+.adele-name {
+    margin-top: 10px;
+    margin-left: 21px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--brown-bread-subtitle-color);
+}
+.adele-nation {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--brown-bread-subtitle-color);
+    opacity: 0.7;
+}
+.quote-text {
+    width: 100%;
+    max-width: 322px;
+    margin-top: 50px;
+    margin-bottom: 39px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--brown-bread-subtitle-color);
+    opacity: 0.7;
+    margin-right: 224px;
+}
+.people-images {
+    margin-left: 27px;
+    border-radius: 50%;
+}
+.our-product-end-img {
+    margin-top: 112px;
+}
+/* OUR PRODUCT SECTION STYLES END */
+
+/* SIMPLE SECTION STYLES START */
+.simple-section {
+    padding-top: 56px;
+    padding-bottom: 0;
+    position: relative;
+    background-color: var(--brown-sugar-section-bg-color);
+}
+.simple-section-img {
+    margin-right: 134px;
+    position: absolute;
+}
+.simple-section__wrapper {
+    display: flex;
+   
+}
+.simple-section__title {
+    margin-left: 500px;
+    margin-top: 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: var(--brown-bread-subtitle-color);
+}
+.simple-section__text {
+    width: 607px;
+    margin-top: 29px;
+    margin-left: 500px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: var(--main-text-color);
+}
+.simple-section__item {
+    display: flex;
+}
+.simple-section__item-img {
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-left: 500px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: var(--footer-text-color);
+    border-radius: 3px;
+}
+.simple-section__item-text {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--brown-bread-subtitle-color);
+}
+.simple-section__end {
+    margin-left: 500px;
+}
+
+/* SIMPLE SECTION STYLES END */
+.call-back-section {
+    padding-top: 150px;
+    padding-bottom: 71px;
+    background-color: var(--footer-text-color);
+}
+.call-back-section__title {
+    width: 100%;
+    max-width: 522px;
+    margin: 0 auto 26px auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: var(--brown-bread-subtitle-color);
+}
+
+.call-back__form {
+    text-align: center;
+    flex-direction: column;
+}
+.form-input {
+    width: 100%;
+    max-width: 303px;
+    margin-right: 30px;
+    padding: 19px 0px 19px 15px;
+    margin-left: 0px;
+    margin-top: 37px;
+    background: var(--footer-text-color);
+    border: 1px solid var(--have-question-form-border-color);
+    border-radius: 5px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;;
+    opacity: 0.6;
+}
+
+.form-input-comment {  
+    width: 100%;
+    max-width: 630px;
+    margin-top: 37px;
+    margin-left: 240px;
+    padding: 20px 0px 0px 25px;
+    position: relative;
+    background: var(--footer-text-color);
+    border: 1px solid var(--have-question-form-border-color);
+    border-radius: 5px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;;
+    opacity: 0.6;
+
+}
+.call-back-section__btn {
+    margin-top: -59px;
+    margin-left: 771px;
+    padding: 16px 40px;
+    position: absolute;
+    background-color: var(--brown-sugar-section-btn-color);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--footer-text-color);
+}
+/* CALL BACK SECTION STYLES END */
+/***************** MAIN STYLES END *****************/
+
+/***************** FOOTER STYLES START *****************/
+.site-footer {
+    background-color: #0A0808;
+}
+.site-footer__start {
+    padding-top: 70px;
+    padding-bottom: 104px;
+    display: flex;
+}
+.site-footer__list {
+    display: flex;
+}
+.item__item-text {
+    width: 100%;
+    max-width: 207px;
+    margin-bottom: 25px;
+    margin-right: 37px;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: var(--footer-text-color);
+    opacity: 0.7;
+}
+.follow-us {
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--footer-text-color);
+
+}
+.item__icon {
+    margin-right: 10px;
+}
+.item__link-text {
+    font-style: normal;
+    font-size: 12px;
+    margin-right: 130px;
+    line-height: 14px;
+    color: var(--footer-text-color);
+    opacity: 0.7;
+}
+.item__link-text:hover {
+    opacity: 1;
+}
+.item__link-text:active {
+    opacity: 1;
+}
+.site-footer__item-title {
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--footer-text-color);
+}
+.form-input-email {
+    margin-bottom: 15px;
+    padding: 15px 200px 15px 32px;
+    position: relative;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--footer-text-color);
+    opacity: 0.6;
+    background-color: transparent;
+    opacity: 0.5;
+    border: 2px solid var(--brown-sugar-section-btn-color);
+    border-radius: 5px;
+}
+.form-input-email__btn {
+    position: absolute;
+    padding: 13px 18px;
+    font-style: normal;
+    margin-top: -65px;
+    margin-left: 273px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--footer-text-color);
+    background-color: var(--header-btn-color);
+    border-radius: 5px;
+
+}
+/***************** FOOTER STYLES END *****************/
